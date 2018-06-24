@@ -1,0 +1,64 @@
+.task, .task-form {
+    background: white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.task_done {
+    background: #86ff87;
+}
+
+.task__name {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.task__name-input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.task__description {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.task__description-input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: vertical;
+}
+
+.task__manage-bar {
+    margin: 5px 20px;
+}
+
+.task__button {
+    background: none;
+    filter: grayscale(100%);
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+.task__button:hover {
+    filter: none;
+    transition: all 0.3s;
+}
+
+.task__image {
+    width: 100%;
+    height: 100%;
+}

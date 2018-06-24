@@ -1,0 +1,18 @@
+.add-button {
+    /*float: right;*/
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    background: #07AF55;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+.add-button:hover {
+    transform: rotate(90deg);
+    transition: 0.3s;
+}

@@ -1,0 +1,26 @@
+.task-manager {
+    width: 100%;
+    min-height: 400px;
+    margin: 20px auto 0 auto;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.task-manager__control-panel {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+}
+
+.task:last-child {
+    margin-bottom: 0;
+}
+
+.task-manager__search {
+    float: right;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    height: 20px;
+}

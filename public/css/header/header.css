@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    /*color: #F78B0A;*/
+    height: 30px;
+    line-height: 30px;
+    font-size: 5vmin;
+    padding-top: 2vmin;
+}
+
+.header__line {
+    margin: 5px 20px;
+    border: none;
+    border-top: 1px solid #D70955;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+}
